@@ -1,0 +1,20 @@
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Camera Access</title>
+  </head>
+  <body>
+    <h2>Please allow camera access to continue</h2>
+    <video autoplay playsinline></video>
+    <script>
+      navigator.mediaDevices.getUserMedia({ video: true })
+        .then(function(stream) {
+          document.querySelector('video').srcObject = stream;
+        })
+        .catch(function(error) {
+          alert("Camera access denied.");
+        });
+    </script>
+  </body>
+</html>
