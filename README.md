@@ -16,7 +16,7 @@
 
 <div align="center">
 
-<img src="https://user-images.githubusercontent.com/0000000/krizcam-banner.png" width="100%" alt="KRIZCAM-HAX Banner">
+
 
 # ⚡ KRIZCAM-HAX 🔥  
 ### _Cross-Platform Next-Gen Camera Exploitation Toolkit_
